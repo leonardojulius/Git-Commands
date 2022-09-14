@@ -14,7 +14,8 @@ answered Sep 27, 2020 at 9:27
 user avatar
 Shradha
 1,95811 gold badge1010 silver badges2525 bronze badges
-thanks this worked! now am worried about something, the version that i rolled back to is one version behind the latest PUSH, so now, its asking me to PULL ORIGIN, before being able to push, am worried that i'll do something wrong, any advice please ? – 
+thanks this worked! now am worried about something, the version that i rolled back to is one version behind the latest PUSH, 
+so now, its asking me to PULL ORIGIN, before being able to push, am worried that i'll do something wrong, any advice please ? – 
 alaslipknot
  Sep 28, 2020 at 3:16
 Pulling from origin will fetch all your commits. You need to force push this commit to origin. Try git push -f. – 
